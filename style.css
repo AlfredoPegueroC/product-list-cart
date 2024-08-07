@@ -1,0 +1,80 @@
+* {
+  font: inherit;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+}
+img,
+video,
+svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+.container{
+  padding: 2rem;
+  max-width: 23.4375rem;
+}
+.title{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.card{
+position: relative;  
+}
+.card img{
+  border-radius: 5px;
+} 
+.card__container{
+  display: grid;
+  gap: 2rem;
+}
+.card__content{
+  display: flex;
+  flex-direction: column;
+}
+.category{
+  margin-top: 2rem;
+  color: hsla(0, 0%, 0%, 0.75);
+}
+.name{
+  font-weight: 600;
+  margin-top: -.75rem;
+  font-size: 1.125rem;
+}
+.price{
+  margin-top: -.5rem;
+  font-size: 1.25rem;
+  color: hsl(14, 86%, 42%);
+  font-weight: 600;
+}
+.btn{
+  position: absolute;
+  display: flex;
+  padding: .75rem 1.5rem;
+  gap: .5rem;
+  border: none;
+  background: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  outline: 1px solid hsla(0, 0%, 0%, 0.6);
+  right: 5rem;
+  bottom: 6rem;
+}
